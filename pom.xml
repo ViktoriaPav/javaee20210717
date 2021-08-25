@@ -51,6 +51,5 @@
 
     <modules>
         <module>jdbc</module>
-        <module>jdbc</module>
     </modules>
 </project>
