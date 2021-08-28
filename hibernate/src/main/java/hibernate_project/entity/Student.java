@@ -1,4 +1,4 @@
-package hibernate_project.intity;
+package hibernate_project.entity;
 
 
 import javax.persistence.*;

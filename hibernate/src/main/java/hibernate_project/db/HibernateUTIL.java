@@ -1,4 +1,4 @@
-package hibernate_progect.db;
+package hibernate_project.db;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

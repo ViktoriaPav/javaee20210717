@@ -51,5 +51,6 @@
 
     <modules>
         <module>jdbc</module>
+        <module>hibernate</module>
     </modules>
 </project>

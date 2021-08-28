@@ -14,7 +14,7 @@ public class CsvParserImpl implements CsvParser {
     private static final Logger logger = LoggerFactory.getLogger(CsvParserImpl.class);
 
     public File unzipFile(String fileZip, String nameCSVFile) throws IOException {
-        File destDir = new File("jdbc" + File.separator + "src" + File.separator + "main" + File.separator + "resources");
+        File destDir = new File( "src" + File.separator + "main" + File.separator + "resources");
         File newFile = new File("");
         byte[] buffer = new byte[1024];
         ZipInputStream zis = new ZipInputStream(new FileInputStream(fileZip));
