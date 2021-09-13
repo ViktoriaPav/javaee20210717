@@ -8,8 +8,12 @@
         <property name="hibernate.connection.username">sa</property>
         <property name="hibernate.connection.password"></property>
         <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
-        <property name="show_sql">true</property>
+<!--        <property name="show_sql">true</property>-->
         <property name="hbm2ddl.auto">create-drop</property>
         <mapping class="hibernate_project.entity.Student"></mapping>
+        <mapping class="hibernate_project.entity.City"></mapping>
+        <mapping class="hibernate_project.entity.Country"></mapping>
+        <mapping class="hibernate_project.entity.Region"></mapping>
     </session-factory>
+
 </hibernate-configuration>
