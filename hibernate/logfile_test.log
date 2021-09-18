@@ -1,0 +1,1228 @@
+2021-09-18 17:53:04 DEBUG CsvParserImpl:79 - Method: ParserCSVFile. Address ArrayList was created from cities1.csv
+2021-09-18 17:53:04 DEBUG CsvParserImpl:79 - Method: ParserCSVFile. Address ArrayList was created from cities1.csv
+2021-09-18 17:53:04 DEBUG CsvParserImpl:53 - Method: UnzipFile. Text cities.csv was created
+2021-09-18 17:53:04 DEBUG CsvParserImpl:53 - Method: UnzipFile. Text cities.csv was created
+2021-09-18 17:53:04 DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2021-09-18 17:53:04 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-09-18 17:53:04 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-09-18 17:53:04 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-09-18 17:53:04 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.5.6.Final
+2021-09-18 17:53:04 DEBUG Environment:199 - HHH000206: hibernate.properties not found
+2021-09-18 17:53:05 DEBUG LocalXmlResourceResolver:63 - Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2021-09-18 17:53:05 DEBUG LocalXmlResourceResolver:91 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+2021-09-18 17:53:05 DEBUG JaxbCfgProcessor:117 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2021-09-18 17:53:05 DEBUG Configuration:742 - Building session factory using internal StandardServiceRegistryBuilder
+2021-09-18 17:53:05 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-09-18 17:53:05 DEBUG Configuration:672 - Building session factory using provided StandardServiceRegistry
+2021-09-18 17:53:05 DEBUG RegionFactoryInitiator:118 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-09-18 17:53:05 DEBUG RegionFactoryInitiator:49 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-09-18 17:53:05 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@4681c175
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@4681c175
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4681c175
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5386659f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@7ce026d3
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration yes_no -> org.hibernate.type.YesNoType@268f106e
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@31ea9581
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@31ea9581
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@31ea9581
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration character -> org.hibernate.type.CharacterType@3e08ff24
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration char -> org.hibernate.type.CharacterType@3e08ff24
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3e08ff24
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@7188af83
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@7188af83
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7188af83
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration integer -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration int -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@23e84203
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@23e84203
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@23e84203
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@35841320
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@35841320
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@35841320
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@7fd50002
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@7fd50002
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7fd50002
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4c163e3
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4c163e3
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@66982506
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@66982506
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration string -> org.hibernate.type.StringType@4f32a3ad
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.String -> org.hibernate.type.StringType@4f32a3ad
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7d900ecf
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@673fdbce
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration url -> org.hibernate.type.UrlType@710636b0
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@710636b0
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration Duration -> org.hibernate.type.DurationType@43f02ef2
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@43f02ef2
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration Instant -> org.hibernate.type.InstantType@4b8d604b
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@4b8d604b
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@14fc5f04
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@14fc5f04
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@dc7df28
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@dc7df28
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@4d15107f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@4d15107f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1a4927d6
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1a4927d6
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6b09fb41
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6b09fb41
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5340477f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5340477f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration date -> org.hibernate.type.DateType@57db2b13
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@57db2b13
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration time -> org.hibernate.type.TimeType@1b919693
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1b919693
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration timestamp -> org.hibernate.type.TimestampType@6933b6c6
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6933b6c6
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6933b6c6
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3aa078fd
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration calendar -> org.hibernate.type.CalendarType@6cd24612
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6cd24612
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6cd24612
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@d2de489
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@1b66c0fb
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration locale -> org.hibernate.type.LocaleType@37313c65
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@37313c65
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration currency -> org.hibernate.type.CurrencyType@5d908d47
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5d908d47
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@69ee81fc
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@69ee81fc
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration class -> org.hibernate.type.ClassType@3b35a229
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3b35a229
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5e3f861
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5e3f861
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6d5620ce
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration binary -> org.hibernate.type.BinaryType@78452606
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration byte[] -> org.hibernate.type.BinaryType@78452606
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration [B -> org.hibernate.type.BinaryType@78452606
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2235eaab
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2235eaab
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2235eaab
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration row_version -> org.hibernate.type.RowVersionType@10289886
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration image -> org.hibernate.type.ImageType@1a5a4e19
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration characters -> org.hibernate.type.CharArrayType@7975d1d8
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration char[] -> org.hibernate.type.CharArrayType@7975d1d8
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration [C -> org.hibernate.type.CharArrayType@7975d1d8
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@e3b3b2f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@e3b3b2f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@e3b3b2f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration text -> org.hibernate.type.TextType@5038d0b5
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration ntext -> org.hibernate.type.NTextType@7d9f158f
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration blob -> org.hibernate.type.BlobType@7d7758be
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@7d7758be
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@68878f6d
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration clob -> org.hibernate.type.ClobType@16612a51
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@16612a51
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration nclob -> org.hibernate.type.NClobType@4149c063
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4149c063
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@62656be4
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7d61eb55
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration serializable -> org.hibernate.type.SerializableType@4bff7da0
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration object -> org.hibernate.type.ObjectType@b86de0d
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@b86de0d
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4808bc9b
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2ca923bb
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1ebea008
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1787f2a0
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@163370c2
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7905a0b8
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@389b0789
+2021-09-18 17:53:05 DEBUG BasicTypeRegistry:157 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@478db956
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-09-18 17:53:05 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-09-18 17:53:05 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-18 17:53:05 INFO  pooling:115 - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-18 17:53:05 INFO  pooling:121 - HHH10001001: Connection properties: {user=sa, password=}
+2021-09-18 17:53:05 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-09-18 17:53:05 DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+2021-09-18 17:53:05 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-18 17:53:05 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : H2
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+2021-09-18 17:53:05 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : H2 JDBC Driver
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+2021-09-18 17:53:05 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.1
+2021-09-18 17:53:05 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-18 17:53:05 DEBUG IdentifierHelperBuilder:114 - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2021-09-18 17:53:05 DEBUG Namespace:51 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-09-18 17:53:05 DEBUG TypeConfiguration$Scope:149 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@68fa0ba8] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6c5945a7]
+2021-09-18 17:53:05 DEBUG AnnotationBinder:558 - Binding entity from annotated class: hibernate_project.entity.Student
+2021-09-18 17:53:05 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-09-18 17:53:05 DEBUG EntityBinder:431 - Import with entity name Student
+2021-09-18 17:53:06 DEBUG EntityBinder:874 - Bind entity hibernate_project.entity.Student on table student
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.Student] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.Student
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Student:id]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for id
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property id
+2021-09-18 17:53:06 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property email with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Student:email]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for email
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property email
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property firstName with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Student:firstName]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for firstName
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property firstName
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=lastName, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property lastName with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Student:lastName]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for lastName
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property lastName
+2021-09-18 17:53:06 DEBUG AnnotationBinder:558 - Binding entity from annotated class: hibernate_project.entity.City
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-09-18 17:53:06 DEBUG EntityBinder:431 - Import with entity name City
+2021-09-18 17:53:06 DEBUG EntityBinder:874 - Bind entity hibernate_project.entity.City on table cities
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cities), mappingColumn=index, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.City] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.City
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property index with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.City:index]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for index
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property index
+2021-09-18 17:53:06 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(index)]), index, assigned, , ...)
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cities), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property name with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.City:name]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for name
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property name
+2021-09-18 17:53:06 DEBUG AnnotationBinder:558 - Binding entity from annotated class: hibernate_project.entity.Country
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-09-18 17:53:06 DEBUG EntityBinder:431 - Import with entity name Country
+2021-09-18 17:53:06 DEBUG EntityBinder:874 - Bind entity hibernate_project.entity.Country on table countries
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(countries), mappingColumn=index, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.Country] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.Country
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property index with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Country:index]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for index
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property index
+2021-09-18 17:53:06 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(index)]), index, assigned, , ...)
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(countries), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property name with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Country:name]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for name
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property name
+2021-09-18 17:53:06 DEBUG AnnotationBinder:558 - Binding entity from annotated class: hibernate_project.entity.Region
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-09-18 17:53:06 DEBUG EntityBinder:431 - Import with entity name Region
+2021-09-18 17:53:06 DEBUG EntityBinder:874 - Bind entity hibernate_project.entity.Region on table regions
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(regions), mappingColumn=index, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.Region] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.Region
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property index with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Region:index]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for index
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property index
+2021-09-18 17:53:06 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(index)]), index, assigned, , ...)
+2021-09-18 17:53:06 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(regions), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2021-09-18 17:53:06 DEBUG PropertyBinder:175 - MetadataSourceProcessor property name with lazy=false
+2021-09-18 17:53:06 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [hibernate_project.entity.Region:name]
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:410 - building SimpleValue for name
+2021-09-18 17:53:06 DEBUG PropertyBinder:266 - Building property name
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for id
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for email
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for firstName
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for lastName
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for index
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for name
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for index
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for name
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for index
+2021-09-18 17:53:06 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for name
+2021-09-18 17:53:06 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [student]
+2021-09-18 17:53:06 DEBUG PrimaryKey:35 - Forcing column [index] to be non-null as it is part of the primary key for table [cities]
+2021-09-18 17:53:06 DEBUG PrimaryKey:35 - Forcing column [index] to be non-null as it is part of the primary key for table [countries]
+2021-09-18 17:53:06 DEBUG PrimaryKey:35 - Forcing column [index] to be non-null as it is part of the primary key for table [regions]
+2021-09-18 17:53:06 DEBUG SessionFactoryImpl:206 - Building session factory
+2021-09-18 17:53:06 DEBUG Settings:68 - SessionFactory name : null
+2021-09-18 17:53:06 DEBUG Settings:69 - Automatic flush during beforeCompletion(): enabled
+2021-09-18 17:53:06 DEBUG Settings:70 - Automatic session close at end of transaction: disabled
+2021-09-18 17:53:06 DEBUG Settings:72 - Statistics: disabled
+2021-09-18 17:53:06 DEBUG Settings:74 - Deleted entity synthetic identifier rollback: disabled
+2021-09-18 17:53:06 DEBUG Settings:75 - Default entity-mode: pojo
+2021-09-18 17:53:06 DEBUG Settings:76 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-09-18 17:53:06 DEBUG Settings:77 - Allow initialization of lazy state outside session : disabled
+2021-09-18 17:53:06 DEBUG Settings:79 - Using BatchFetchStyle : LEGACY
+2021-09-18 17:53:06 DEBUG Settings:80 - Default batch fetch size: -1
+2021-09-18 17:53:06 DEBUG Settings:81 - Maximum outer join fetch depth: null
+2021-09-18 17:53:06 DEBUG Settings:82 - Default null ordering: NONE
+2021-09-18 17:53:06 DEBUG Settings:83 - Order SQL updates by primary key: disabled
+2021-09-18 17:53:06 DEBUG Settings:84 - Order SQL inserts for batching: disabled
+2021-09-18 17:53:06 DEBUG Settings:86 - multi-tenancy strategy : NONE
+2021-09-18 17:53:06 DEBUG Settings:88 - JTA Track by Thread: enabled
+2021-09-18 17:53:06 DEBUG Settings:90 - Query language substitutions: {}
+2021-09-18 17:53:06 DEBUG Settings:91 - Named query checking : enabled
+2021-09-18 17:53:06 DEBUG Settings:93 - Second-level cache: disabled
+2021-09-18 17:53:06 DEBUG Settings:94 - Second-level query cache: disabled
+2021-09-18 17:53:06 DEBUG Settings:95 - Second-level query cache factory: null
+2021-09-18 17:53:06 DEBUG Settings:96 - Second-level cache region prefix: null
+2021-09-18 17:53:06 DEBUG Settings:97 - Optimize second-level cache for minimal puts: disabled
+2021-09-18 17:53:06 DEBUG Settings:98 - Structured second-level cache entries: disabled
+2021-09-18 17:53:06 DEBUG Settings:99 - Second-level cache direct-reference entries: disabled
+2021-09-18 17:53:06 DEBUG Settings:100 - Automatic eviction of collection cache: disabled
+2021-09-18 17:53:06 DEBUG Settings:102 - JDBC batch size: 15
+2021-09-18 17:53:06 DEBUG Settings:103 - JDBC batch updates for versioned data: enabled
+2021-09-18 17:53:06 DEBUG Settings:104 - Scrollable result sets: enabled
+2021-09-18 17:53:06 DEBUG Settings:105 - Wrap result sets: disabled
+2021-09-18 17:53:06 DEBUG Settings:106 - JDBC3 getGeneratedKeys(): enabled
+2021-09-18 17:53:06 DEBUG Settings:107 - JDBC result set fetch size: null
+2021-09-18 17:53:06 DEBUG Settings:108 - Connection release mode: AFTER_TRANSACTION
+2021-09-18 17:53:06 DEBUG Settings:109 - Generate SQL with comments: disabled
+2021-09-18 17:53:06 DEBUG Settings:111 - JPA compliance - query : disabled
+2021-09-18 17:53:06 DEBUG Settings:112 - JPA compliance - closed-handling : disabled
+2021-09-18 17:53:06 DEBUG Settings:113 - JPA compliance - lists : disabled
+2021-09-18 17:53:06 DEBUG Settings:114 - JPA compliance - transactions : disabled
+2021-09-18 17:53:06 DEBUG SessionFactoryServiceRegistryImpl:92 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-09-18 17:53:06 DEBUG SessionFactoryServiceRegistryImpl:92 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-09-18 17:53:06 DEBUG SessionFactoryImpl:268 - Session factory constructed with filter configurations : {}
+2021-09-18 17:53:06 DEBUG SessionFactoryImpl:269 - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.H2Dialect, java.class.path=D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\test-classes;D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\classes;C:\Users\vikaf\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\vikaf\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\vikaf\.m2\repository\org\hibernate\hibernate-core\5.5.6.Final\hibernate-core-5.5.6.Final.jar;C:\Users\vikaf\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\vikaf\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\vikaf\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\vikaf\.m2\repository\net\bytebuddy\byte-buddy\1.11.8\byte-buddy-1.11.8.jar;C:\Users\vikaf\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\vikaf\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\vikaf\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\vikaf\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\vikaf\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\vikaf\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\vikaf\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\vikaf\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\vikaf\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\vikaf\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\vikaf\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\vikaf\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\vikaf\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\vikaf\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;C:\Users\vikaf\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\vikaf\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\vikaf\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hbm2ddl.auto=create-drop, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Helsinki, os.name=Windows 10, java.vm.specification.version=1.8, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin, sun.java.command=D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\surefire\surefirebooter4303389393062064477.jar D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\surefire\surefire1873790063686388591tmp D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\surefire\surefire_11185452326246426505tmp, surefire.test.class.path=D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\test-classes;D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\classes;C:\Users\vikaf\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\vikaf\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\vikaf\.m2\repository\org\hibernate\hibernate-core\5.5.6.Final\hibernate-core-5.5.6.Final.jar;C:\Users\vikaf\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\vikaf\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\vikaf\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\vikaf\.m2\repository\net\bytebuddy\byte-buddy\1.11.8\byte-buddy-1.11.8.jar;C:\Users\vikaf\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\vikaf\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\vikaf\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\vikaf\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\vikaf\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\vikaf\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\vikaf\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\vikaf\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\vikaf\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\vikaf\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\vikaf\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\vikaf\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\vikaf\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\vikaf\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;C:\Users\vikaf\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\vikaf\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\vikaf\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;, sun.cpu.endian=little, user.home=C:\Users\vikaf, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jdk1.8.0_221\jre, basedir=D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, surefire.real.class.path=D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate\target\surefire\surefirebooter4303389393062064477.jar, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes, hibernate.hbm2ddl.auto=create-drop, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_221-b11, user.name=vikaf, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:h2:mem:test, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, localRepository=C:\Users\vikaf\.m2\repository, hibernate.connection.driver_class=org.h2.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\vikaf\AppData\Local\Temp\, java.version=1.8.0_221, user.dir=D:\IT\Hillel cources\Java Enterprise\Homeworks\javaee20210717\hibernate, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@6bc28a83, java.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\tomcat-juli.jar;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\vikaf\AppData\Local\Microsoft\WindowsApps;d:\Bars\oacle\instantclient_18_3;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\maven\bin;;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.221-b11, hibernate.bytecode.use_reflection_optimizer=false, idea.version2019.3=true, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, java.class.version=52.0}
+2021-09-18 17:53:06 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2021-09-18 17:53:06 DEBUG SessionFactoryImpl:309 - Instantiated session factory
+2021-09-18 17:53:06 DEBUG TypeConfiguration$Scope:154 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@68fa0ba8] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@f8908f6]
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.Student] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.Student
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.Country] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.Country
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.Region] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.Region
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [hibernate_project.entity.City] is safe
+2021-09-18 17:53:06 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : hibernate_project.entity.City
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4000 - Static SQL for entity: hibernate_project.entity.Student
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4005 -  Version select: select id from student where id =?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4008 -  Snapshot select: select student_.id, student_.email as email2_3_, student_.first_name as first_na3_3_, student_.lastName as lastname4_3_ from student student_ where student_.id=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into student (email, first_name, lastName, id) values (?, ?, ?, ?)
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Update 0: update student set email=?, first_name=?, lastName=? where id=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from student where id=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4016 -  Identity insert: insert into student (id, email, first_name, lastName) values (null, ?, ?, ?)
+2021-09-18 17:53:06 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@15923407]
+2021-09-18 17:53:06 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : email
+2021-09-18 17:53:06 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : firstName
+2021-09-18 17:53:06 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : lastName
+2021-09-18 17:53:06 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-09-18 17:53:06 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-09-18 17:53:06 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernate_project.entity.Student)
+    - Returns
+       - EntityReturnImpl(entity=hibernate_project.entity.Student, querySpaceUid=<gen:0>, path=hibernate_project.entity.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernate_project.entity.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2021-09-18 17:53:06 DEBUG EntityLoader:129 - Static select for entity hibernate_project.entity.Student [NONE]: select student0_.id as id1_3_0_, student0_.email as email2_3_0_, student0_.first_name as first_na3_3_0_, student0_.lastName as lastname4_3_0_ from student student0_ where student0_.id=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4000 - Static SQL for entity: hibernate_project.entity.Country
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4005 -  Version select: select index from countries where index =?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4008 -  Snapshot select: select country_.index, country_.name as name2_1_ from countries country_ where country_.index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Update 0: update countries set name=? where index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from countries where index=?
+2021-09-18 17:53:06 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c16fadb]
+2021-09-18 17:53:06 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : name
+2021-09-18 17:53:06 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-09-18 17:53:06 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-09-18 17:53:06 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernate_project.entity.Country)
+    - Returns
+       - EntityReturnImpl(entity=hibernate_project.entity.Country, querySpaceUid=<gen:0>, path=hibernate_project.entity.Country)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernate_project.entity.Country)
+          - SQL table alias mapping - country0_
+          - alias suffix - 0_
+          - suffixed key columns - {index1_1_0_}
+
+2021-09-18 17:53:06 DEBUG EntityLoader:129 - Static select for entity hibernate_project.entity.Country [NONE]: select country0_.index as index1_1_0_, country0_.name as name2_1_0_ from countries country0_ where country0_.index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4000 - Static SQL for entity: hibernate_project.entity.Region
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4005 -  Version select: select index from regions where index =?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4008 -  Snapshot select: select region_.index, region_.name as name2_2_ from regions region_ where region_.index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into regions (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Update 0: update regions set name=? where index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from regions where index=?
+2021-09-18 17:53:06 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@64138b0c]
+2021-09-18 17:53:06 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : name
+2021-09-18 17:53:06 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-09-18 17:53:06 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-09-18 17:53:06 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernate_project.entity.Region)
+    - Returns
+       - EntityReturnImpl(entity=hibernate_project.entity.Region, querySpaceUid=<gen:0>, path=hibernate_project.entity.Region)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernate_project.entity.Region)
+          - SQL table alias mapping - region0_
+          - alias suffix - 0_
+          - suffixed key columns - {index1_2_0_}
+
+2021-09-18 17:53:06 DEBUG EntityLoader:129 - Static select for entity hibernate_project.entity.Region [NONE]: select region0_.index as index1_2_0_, region0_.name as name2_2_0_ from regions region0_ where region0_.index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4000 - Static SQL for entity: hibernate_project.entity.City
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4005 -  Version select: select index from cities where index =?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:4008 -  Snapshot select: select city_.index, city_.name as name2_0_ from cities city_ where city_.index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into cities (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Update 0: update cities set name=? where index=?
+2021-09-18 17:53:06 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from cities where index=?
+2021-09-18 17:53:06 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7435a578]
+2021-09-18 17:53:06 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : name
+2021-09-18 17:53:06 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-09-18 17:53:06 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-09-18 17:53:06 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=hibernate_project.entity.City)
+    - Returns
+       - EntityReturnImpl(entity=hibernate_project.entity.City, querySpaceUid=<gen:0>, path=hibernate_project.entity.City)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=hibernate_project.entity.City)
+          - SQL table alias mapping - city0_
+          - alias suffix - 0_
+          - suffixed key columns - {index1_0_0_}
+
+2021-09-18 17:53:06 DEBUG EntityLoader:129 - Static select for entity hibernate_project.entity.City [NONE]: select city0_.index as index1_0_0_, city0_.name as name2_0_0_ from cities city0_ where city0_.index=?
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists cities CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists cities CASCADE 
+2021-09-18 17:53:06 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cf162bc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists countries CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists countries CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists regions CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists regions CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists student CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - drop table if exists student CASCADE 
+2021-09-18 17:53:06 DEBUG SQL:144 - create table cities (index integer not null, name varchar(255), primary key (index))
+2021-09-18 17:53:06 DEBUG SQL:144 - create table cities (index integer not null, name varchar(255), primary key (index))
+2021-09-18 17:53:06 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@518cf84a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-18 17:53:06 DEBUG SQL:144 - create table countries (index integer not null, name varchar(255), primary key (index))
+2021-09-18 17:53:06 DEBUG SQL:144 - create table countries (index integer not null, name varchar(255), primary key (index))
+2021-09-18 17:53:06 DEBUG SQL:144 - create table regions (index integer not null, name varchar(255), primary key (index))
+2021-09-18 17:53:06 DEBUG SQL:144 - create table regions (index integer not null, name varchar(255), primary key (index))
+2021-09-18 17:53:06 DEBUG SQL:144 - create table student (id integer generated by default as identity, email varchar(255), first_name varchar(255), lastName varchar(255), primary key (id))
+2021-09-18 17:53:06 DEBUG SQL:144 - create table student (id integer generated by default as identity, email varchar(255), first_name varchar(255), lastName varchar(255), primary key (id))
+2021-09-18 17:53:06 DEBUG JtaPlatformInitiator:43 - No JtaPlatform was specified, checking resolver
+2021-09-18 17:53:06 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2021-09-18 17:53:06 DEBUG StandardJtaPlatformResolver:137 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-18 17:53:06 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-18 17:53:06 DEBUG NamedQueryRepository:153 - Checking 0 named HQL queries
+2021-09-18 17:53:06 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+2021-09-18 17:53:06 DEBUG SessionFactoryServiceRegistryImpl:92 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-09-18 17:53:06 DEBUG SessionFactoryRegistry:51 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@29c2c826
+2021-09-18 17:53:06 DEBUG SessionFactoryRegistry:73 - Registering SessionFactory: debdfafc-024e-40e5-9479-9ed10134cad2 (<unnamed>)
+2021-09-18 17:53:06 DEBUG SessionFactoryRegistry:80 - Not binding SessionFactory to JNDI, no JNDI name configured
+2021-09-18 17:53:06 DEBUG HibernateUTIL:35 - SessionFactory: getSessionFactory
+2021-09-18 17:53:06 DEBUG HibernateUTIL:35 - SessionFactory: getSessionFactory
+2021-09-18 17:53:06 DEBUG StatisticsInitiator:101 - Statistics initialized [enabled=false]
+2021-09-18 17:53:06 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-09-18 17:53:06 DEBUG TransactionImpl:81 - begin
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 60, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 61, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG TransactionImpl:98 - committing
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:114 - Flushed: 2 insertions, 0 updates, 0 deletions to 2 objects
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-09-18 17:53:06 DEBUG EntityPrinter:110 - Listing entities:
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC2, index=61}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC1, index=60}
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG TransactionImpl:81 - begin
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 50, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 51, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG TransactionImpl:98 - committing
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:114 - Flushed: 2 insertions, 0 updates, 0 deletions to 4 objects
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-09-18 17:53:06 DEBUG EntityPrinter:110 - Listing entities:
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.City{name=Test2, index=51}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC2, index=61}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC1, index=60}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.City{name=Test1, index=50}
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into cities (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into cities (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into cities (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into cities (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG TransactionImpl:81 - begin
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 70, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 71, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG TransactionImpl:98 - committing
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:114 - Flushed: 2 insertions, 0 updates, 0 deletions to 6 objects
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-09-18 17:53:06 DEBUG EntityPrinter:110 - Listing entities:
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.City{name=Test2, index=51}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC2, index=61}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC1, index=60}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.City{name=Test1, index=50}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Region{name=TestR1, index=70}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Region{name=TestR2, index=71}
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into regions (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into regions (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into regions (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into regions (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Region as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@31f20c9f
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Region as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Region'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'name'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Region (generatedAlias0) -> region0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> region0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> region0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : name -> org.hibernate.type.StringType@4f32a3ad
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.name -> region0_.name
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} region0_.index ) ( FromClause{level=1} regions region0_ ) ( where ( like ( region0_.name region0_.index name ) ? ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Region): [regions]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+          | path: generatedAlias0.name
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: name
+          \-ParameterNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [regions region0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (regions)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'region0_.index as index1_2_' {alias=generatedAlias0, className=hibernate_project.entity.Region, tableAlias=region0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'region0_.name as name2_2_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[region0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'regions region0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=regions,tableAlias=region0_,origin=null,columns={,className=hibernate_project.entity.Region}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'region0_.name' {propertyName=name,dereferenceType=PRIMITIVE,getPropertyPath=name,path=generatedAlias0.name,tableAlias=region0_,className=hibernate_project.entity.Region,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'region0_.index' {alias=generatedAlias0, className=hibernate_project.entity.Region, tableAlias=region0_}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@4f32a3ad}
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Region as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_ where region0_.name like ?
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_ where region0_.name like ?
+2021-09-18 17:53:06 DEBUG SQL:144 - select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_ where region0_.name like ?
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Region#71]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from City as generatedAlias0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.City as generatedAlias0
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[IDENT] Node: 'hibernate_project'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'City'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.City (generatedAlias0) -> city0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> city0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} city0_.index ) ( FromClause{level=1} cities city0_ ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity City): [cities]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [cities city0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (cities)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'city0_.index as index1_0_' {alias=generatedAlias0, className=hibernate_project.entity.City, tableAlias=city0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'city0_.name as name2_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[city0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'cities city0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=cities,tableAlias=city0_,origin=null,columns={,className=hibernate_project.entity.City}}
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.City as generatedAlias0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_
+2021-09-18 17:53:06 DEBUG SQL:144 - select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.City#50]
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 1
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.City#51]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Country as generatedAlias0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[IDENT] Node: 'hibernate_project'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Country'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Country (generatedAlias0) -> country0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} country0_.index ) ( FromClause{level=1} countries country0_ ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Country): [countries]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [countries country0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (countries)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'country0_.index as index1_1_' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'country0_.name as name2_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[country0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'countries country0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=countries,tableAlias=country0_,origin=null,columns={,className=hibernate_project.entity.Country}}
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Country#60]
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 1
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Country#61]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Region as generatedAlias0 where generatedAlias0.index=70
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Region as generatedAlias0 where generatedAlias0.index=70
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Region'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'index'
+          \-[NUM_INT] Node: '70'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Region (generatedAlias0) -> region0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> region0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> region0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : index -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.index -> region0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} region0_.index ) ( FromClause{level=1} regions region0_ ) ( where ( = ( region0_.index region0_.index index ) 70 ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Region): [regions]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+          | path: generatedAlias0.index
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: index
+          \-LiteralNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [regions region0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (regions)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'region0_.index as index1_2_' {alias=generatedAlias0, className=hibernate_project.entity.Region, tableAlias=region0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'region0_.name as name2_2_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[region0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'regions region0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=regions,tableAlias=region0_,origin=null,columns={,className=hibernate_project.entity.Region}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'region0_.index' {propertyName=index,dereferenceType=PRIMITIVE,getPropertyPath=index,path=generatedAlias0.index,tableAlias=region0_,className=hibernate_project.entity.Region,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'region0_.index' {alias=generatedAlias0, className=hibernate_project.entity.Region, tableAlias=region0_}
+          |  \-[IDENT] IdentNode: 'index' {originalText=index}
+          \-[NUM_INT] LiteralNode: '70'
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Region as generatedAlias0 where generatedAlias0.index=70
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_ where region0_.index=70
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_ where region0_.index=70
+2021-09-18 17:53:06 DEBUG SQL:144 - select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_ where region0_.index=70
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Region#70]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from City as generatedAlias0 where generatedAlias0.index=50
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.City as generatedAlias0 where generatedAlias0.index=50
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'City'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'index'
+          \-[NUM_INT] Node: '50'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.City (generatedAlias0) -> city0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> city0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> city0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : index -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.index -> city0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} city0_.index ) ( FromClause{level=1} cities city0_ ) ( where ( = ( city0_.index city0_.index index ) 50 ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity City): [cities]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+          | path: generatedAlias0.index
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: index
+          \-LiteralNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [cities city0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (cities)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'city0_.index as index1_0_' {alias=generatedAlias0, className=hibernate_project.entity.City, tableAlias=city0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'city0_.name as name2_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[city0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'cities city0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=cities,tableAlias=city0_,origin=null,columns={,className=hibernate_project.entity.City}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'city0_.index' {propertyName=index,dereferenceType=PRIMITIVE,getPropertyPath=index,path=generatedAlias0.index,tableAlias=city0_,className=hibernate_project.entity.City,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'city0_.index' {alias=generatedAlias0, className=hibernate_project.entity.City, tableAlias=city0_}
+          |  \-[IDENT] IdentNode: 'index' {originalText=index}
+          \-[NUM_INT] LiteralNode: '50'
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.City as generatedAlias0 where generatedAlias0.index=50
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_ where city0_.index=50
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_ where city0_.index=50
+2021-09-18 17:53:06 DEBUG SQL:144 - select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_ where city0_.index=50
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.City#50]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from City as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.City as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'City'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'name'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.City (generatedAlias0) -> city0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> city0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> city0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : name -> org.hibernate.type.StringType@4f32a3ad
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.name -> city0_.name
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} city0_.index ) ( FromClause{level=1} cities city0_ ) ( where ( like ( city0_.name city0_.index name ) ? ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity City): [cities]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+          | path: generatedAlias0.name
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.City)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: name
+          \-ParameterNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [cities city0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (cities)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'city0_.index as index1_0_' {alias=generatedAlias0, className=hibernate_project.entity.City, tableAlias=city0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'city0_.name as name2_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[city0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'cities city0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=cities,tableAlias=city0_,origin=null,columns={,className=hibernate_project.entity.City}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'city0_.name' {propertyName=name,dereferenceType=PRIMITIVE,getPropertyPath=name,path=generatedAlias0.name,tableAlias=city0_,className=hibernate_project.entity.City,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'city0_.index' {alias=generatedAlias0, className=hibernate_project.entity.City, tableAlias=city0_}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@4f32a3ad}
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.City as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_ where city0_.name like ?
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_ where city0_.name like ?
+2021-09-18 17:53:06 DEBUG SQL:144 - select city0_.index as index1_0_, city0_.name as name2_0_ from cities city0_ where city0_.name like ?
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.City#50]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG HibernateUTIL:35 - SessionFactory: getSessionFactory
+2021-09-18 17:53:06 DEBUG HibernateUTIL:35 - SessionFactory: getSessionFactory
+2021-09-18 17:53:06 DEBUG HibernateUTIL:35 - SessionFactory: getSessionFactory
+2021-09-18 17:53:06 DEBUG HibernateUTIL:35 - SessionFactory: getSessionFactory
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Region as generatedAlias0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Region as generatedAlias0
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[IDENT] Node: 'hibernate_project'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Region'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Region (generatedAlias0) -> region0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> region0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} region0_.index ) ( FromClause{level=1} regions region0_ ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Region): [regions]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Region)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [regions region0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (regions)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'region0_.index as index1_2_' {alias=generatedAlias0, className=hibernate_project.entity.Region, tableAlias=region0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'region0_.name as name2_2_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[region0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'regions region0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=regions,tableAlias=region0_,origin=null,columns={,className=hibernate_project.entity.Region}}
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Region as generatedAlias0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_
+2021-09-18 17:53:06 DEBUG SQL:144 - select region0_.index as index1_2_, region0_.name as name2_2_ from regions region0_
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Region#70]
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 1
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Region#71]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Country as generatedAlias0 where generatedAlias0.index=60
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0 where generatedAlias0.index=60
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Country'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'index'
+          \-[NUM_INT] Node: '60'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Country (generatedAlias0) -> country0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : index -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.index -> country0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} country0_.index ) ( FromClause{level=1} countries country0_ ) ( where ( = ( country0_.index country0_.index index ) 60 ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Country): [countries]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+          | path: generatedAlias0.index
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: index
+          \-LiteralNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [countries country0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (countries)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'country0_.index as index1_1_' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'country0_.name as name2_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[country0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'countries country0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=countries,tableAlias=country0_,origin=null,columns={,className=hibernate_project.entity.Country}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'country0_.index' {propertyName=index,dereferenceType=PRIMITIVE,getPropertyPath=index,path=generatedAlias0.index,tableAlias=country0_,className=hibernate_project.entity.Country,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'country0_.index' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+          |  \-[IDENT] IdentNode: 'index' {originalText=index}
+          \-[NUM_INT] LiteralNode: '60'
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0 where generatedAlias0.index=60
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.index=60
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.index=60
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.index=60
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Country#60]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Country as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Country'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'name'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Country (generatedAlias0) -> country0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : name -> org.hibernate.type.StringType@4f32a3ad
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.name -> country0_.name
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} country0_.index ) ( FromClause{level=1} countries country0_ ) ( where ( like ( country0_.name country0_.index name ) ? ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Country): [countries]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+          | path: generatedAlias0.name
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: name
+          \-ParameterNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [countries country0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (countries)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'country0_.index as index1_1_' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'country0_.name as name2_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[country0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'countries country0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=countries,tableAlias=country0_,origin=null,columns={,className=hibernate_project.entity.Country}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'country0_.name' {propertyName=name,dereferenceType=PRIMITIVE,getPropertyPath=name,path=generatedAlias0.name,tableAlias=country0_,className=hibernate_project.entity.Country,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'country0_.index' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@4f32a3ad}
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0 where generatedAlias0.name like :param0
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.name like ?
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.name like ?
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.name like ?
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Country#61]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG TransactionImpl:81 - begin
+2021-09-18 17:53:06 DEBUG AbstractSaveEventListener:128 - Generated identifier: 62, using strategy: org.hibernate.id.Assigned
+2021-09-18 17:53:06 DEBUG TransactionImpl:98 - committing
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:114 - Flushed: 1 insertions, 0 updates, 0 deletions to 7 objects
+2021-09-18 17:53:06 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-09-18 17:53:06 DEBUG EntityPrinter:110 - Listing entities:
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.City{name=Test2, index=51}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC3, index=62}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Region{name=TestR1, index=70}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Region{name=TestR2, index=71}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC2, index=61}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.Country{name=TestC1, index=60}
+2021-09-18 17:53:06 DEBUG EntityPrinter:117 - hibernate_project.entity.City{name=Test1, index=50}
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG SQL:144 - insert into countries (name, index) values (?, ?)
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2021-09-18 17:53:06 DEBUG CriteriaQueryImpl:303 - Rendered criteria query -> select generatedAlias0 from Country as generatedAlias0 where generatedAlias0.index=62
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:292 - parse() - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0 where generatedAlias0.index=62
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[IDENT] Node: 'hibernate_project'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Country'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'index'
+          \-[NUM_INT] Node: '62'
+
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG FromElement:153 - FromClause{level=1} : hibernate_project.entity.Country (generatedAlias0) -> country0_
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> country0_.index
+2021-09-18 17:53:06 DEBUG DotNode:696 - getDataType() : index -> org.hibernate.type.IntegerType@4082ba93
+2021-09-18 17:53:06 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.index -> country0_.index
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( {select clause} country0_.index ) ( FromClause{level=1} countries country0_ ) ( where ( = ( country0_.index country0_.index index ) 62 ) ) )
+2021-09-18 17:53:06 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Country): [countries]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+          | path: generatedAlias0.index
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(hibernate_project.entity.Country)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: index
+          \-LiteralNode
+
+2021-09-18 17:53:06 DEBUG JoinProcessor:304 - Using FROM fragment [countries country0_]
+2021-09-18 17:53:06 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (countries)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'country0_.index as index1_1_' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'country0_.name as name2_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[country0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'countries country0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=countries,tableAlias=country0_,origin=null,columns={,className=hibernate_project.entity.Country}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'country0_.index' {propertyName=index,dereferenceType=PRIMITIVE,getPropertyPath=index,path=generatedAlias0.index,tableAlias=country0_,className=hibernate_project.entity.Country,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'country0_.index' {alias=generatedAlias0, className=hibernate_project.entity.Country, tableAlias=country0_}
+          |  \-[IDENT] IdentNode: 'index' {originalText=index}
+          \-[NUM_INT] LiteralNode: '62'
+
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:258 - HQL: select generatedAlias0 from hibernate_project.entity.Country as generatedAlias0 where generatedAlias0.index=62
+2021-09-18 17:53:06 DEBUG QueryTranslatorImpl:259 - SQL: select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.index=62
+2021-09-18 17:53:06 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.index=62
+2021-09-18 17:53:06 DEBUG SQL:144 - select country0_.index as index1_1_, country0_.name as name2_1_ from countries country0_ where country0_.index=62
+2021-09-18 17:53:06 DEBUG Loader:384 - Result set row: 0
+2021-09-18 17:53:06 DEBUG Loader:1595 - Result row: EntityKey[hibernate_project.entity.Country#62]
+2021-09-18 17:53:06 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction

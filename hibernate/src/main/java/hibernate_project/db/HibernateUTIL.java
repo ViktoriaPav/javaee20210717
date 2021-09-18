@@ -54,7 +54,6 @@ public class HibernateUTIL {
         CriteriaQuery<City> cq = cb.createQuery(City.class);
         Root<City> rootEntity = cq.from(City.class);
         CriteriaQuery<City> all = cq.select(rootEntity);
-
         TypedQuery<City> allQuery = session.createQuery(all);
         return allQuery.getResultList();
     }
@@ -64,7 +63,6 @@ public class HibernateUTIL {
         CriteriaQuery<Country> cq = cb.createQuery(Country.class);
         Root<Country> rootEntity = cq.from(Country.class);
         CriteriaQuery<Country> all = cq.select(rootEntity);
-
         TypedQuery<Country> allQuery = session.createQuery(all);
         return allQuery.getResultList();
     }
@@ -74,7 +72,6 @@ public class HibernateUTIL {
         CriteriaQuery<Region> cq = cb.createQuery(Region.class);
         Root<Region> rootEntity = cq.from(Region.class);
         CriteriaQuery<Region> all = cq.select(rootEntity);
-
         TypedQuery<Region> allQuery = session.createQuery(all);
         return allQuery.getResultList();
     }
